@@ -1,3 +1,4 @@
 .shipit
 MANIFEST.bak
-Makefile
+Makefile.old
+^Makefile$

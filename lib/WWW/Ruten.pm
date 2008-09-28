@@ -1,5 +1,5 @@
 package WWW::Ruten;
-
+use 5.8.0;
 use warnings;
 use strict;
 use WWW::Mechanize;
@@ -13,7 +13,7 @@ our $VERSION = '0.01';
 sub new {
     my ($class) = @_;
     my $self = {};
-    bless $self;
+    bless $self, $class;
     return $self;
 }
 

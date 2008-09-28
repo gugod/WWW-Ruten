@@ -6,6 +6,12 @@ all_from 'lib/WWW/Ruten.pm';
 
 build_requires  'Test::More'        => '0.42';
 
+requires
+    'Encode' => 0,
+    'WWW::Mechanize' => 0,
+    'HTML::TreeBuilder::XPath' => 0,
+    'HTML::Selector::XPath' => 0;
+
 WriteAll;
 
 

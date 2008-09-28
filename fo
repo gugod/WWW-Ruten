@@ -1,0 +1,1621 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW" xml:lang="zh-TW">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=big5" />
+    <meta name="keywords" lang="zh-tw" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="default-style" content="default" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <link rel="home" title="露天拍賣首頁" href="http://www.ruten.com.tw/" />
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/global-reset.css?20080911" media="screen" />
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/global-style.css?20080911" media="screen" />
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/default/www-screen.css?20080911" media="screen" />
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/global-style-ie7.css?20080911" media="screen">
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/default/www-screen-ie7.css?20080911" media="screen" />
+    <![endif]-->
+    <!--[if lt IE 7]>
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/global-style-ie6.css?20080911" media="screen">
+    <link rel="stylesheet" type="text/css" title="default" href="http://www.ruten.com.tw/css/default/www-screen-ie6.css?20080911" media="screen" />
+    <![endif]-->
+    <script type="text/javascript" src="/js/style_fix/page-header.js"></script>
+    <title>露天拍賣--簡單、好玩、免費、安全</title>
+  </head>
+  <body id="wwwRutenComTw" class="theme-cata0">
+  <div class="base-theme">
+  <div class="layout">
+        <script type="text/javascript">
+  function login_pop(dn) {
+    window.open(dn+"/master/my_login.htm","query_login","resizable=yes,scrollbars=yes,width=660,height=558");
+  }
+  </script>
+  <div class="page-header">
+      <p class="logo"><a href="http://www.ruten.com.tw" title="返回露天拍賣首頁" tabindex="1" accesskey="0"><img src="http://www.ruten.com.tw/image/default/ci/logo-195x50.gif" alt="露天拍賣LOGO" /></a></p>
+      <h1 class="slogan"><span>露天拍賣 - 全國最大線上拍賣網站</span></h1>
+  	  <p class="header-ad"><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3602__zoneid=1__source=search__cb=c106ea905d__maxdest=http://www.momoshop.com.tw/activity/edm.jsp?pn=080918133441&ctype=B&cid=RU0922&oid=308' target='_blank'>囧男孩長大想要海角阿嘉車
+</a></p>
+	    <p class="login"><a href="https://member.ruten.com.tw/user/login.htm" title="立即登入" tabindex="2"><span>登入</span></a></p><p class="sys-msg"><a class="signup" href="https://member.ruten.com.tw/user/register_profile.htm" title="免費申請加入露天拍賣網站會員">免費註冊</a></p>      <ul class="site-menu"  id="siteMenu">
+        <li class="forum"><a href="http://forum.ruten.com.tw/index.php" title="露天大小事討論區"><span>討論區</span></a></li>
+        <li class="cm"><a href="http://www.ruten.com.tw/system/" title="專治疑難雜症露天客服中心"><span>客服中心</span></a></li>
+        <li class="webatm"><a href="http://www.ruten.com.tw/atm/index.html" title="超好用網路ATM"><span>網路ATM</span></a></li>
+        <li class="pchome"><a href="http://www.pchome.com.tw" title="到PChome首頁逛逛" target="_blank"><span>PChome</span></a></li>
+      </ul>
+   </div>    <div class="main-menu">
+        <ul class="search-menu">
+            <li class="buy"><a href="http://mybid.ruten.com.tw/upload/step1.htm" title="我要賣東西"><span>賣東西</span></a></li>
+            <li class="mybid"><a href="http://mybid.ruten.com.tw/master/my" title="進入我的拍賣管理中心"><span>我的拍賣</span></a></li>
+            <li class="search-bar" id='searchBarContainer'>
+                <div>
+                <form id="srch" name="srch" method="get" action="http://search.ruten.com.tw/search/s000.php">
+                	<input type="hidden" name="searchfrom" value="headbar">
+                  <ul>
+                  <li class="keyword"><label for="keyword">請輸入關鍵字：</label><input id="keyword" name="k" value="iPod" accesskey="4"  onKeyDown="if(event.keyCode == 13) document.srch.submit();" /></li>
+                  <li class="type">
+                  <label for="srchType">請選擇搜尋項目：</label>
+                                    <select id="srchType" title="搜尋項目下拉選單" name="t"><option value="0">商品標題</option><option value="1">賣家帳號</option><option value="2">商品編號</option></select>
+                	                	<script type="text/javascript">selectToDiv('srchType', 'srch', '');</script>
+                  </li>
+                  <li class="btn"><input type="button" value="搜尋"  onclick="document.srch.submit();" /></li>
+                  <li class="more"><a href="http://search.ruten.com.tw/search/s001.php" title="進階搜尋">進階</a></li>
+                  </ul>
+                </form>
+                </div>
+            </li>
+            <li class="view-all-catalogue"><a href="http://class.ruten.com.tw/category/" title="我要看所有的商品分類">看全部分類</a></li>
+        </ul>
+
+        <div id="catalogueList" class="catalogue">
+          <h2 class="catalogue"><span>分類目錄</span></h2>
+          <ul class="list">
+            <li><a href="http://class.ruten.com.tw/category/main?0011" title="3C電腦資訊">電腦資訊</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0008" title="相機攝影">相機攝影</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0002" title="流行女裝">流行女裝</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0012" title="彩粧保養">彩粧保養</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0001" title="嬰兒母親">嬰兒母親</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0018" title="男裝精品">男裝精品</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0005" title="玩具公仔">玩具公仔</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0003" title="運動健身">運動健身</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0004" title="明星偶像">明星偶像</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0009" title="生活居家">生活居家</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0006" title="書刊文具">書刊文具</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0019" title="交通工具">交通工具</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0007" title="不動產服務">不動產服務</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0023" title="影音家電">影音家電</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0021" title="手機通訊">手機通訊</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0015" title="女鞋男鞋">女鞋男鞋</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0014" title="飾品配件">飾品配件</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0016" title="女性內衣">女性內衣</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0017" title="鐘錶眼鏡">鐘錶眼鏡</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0022" title="電玩遊戲">電玩遊戲</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0020" title="休閒旅遊">休閒旅遊</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0010" title="音樂電影">音樂電影</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0024" title="名產食品">名產食品</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0013" title="古董蒐藏">古董蒐藏</a></li>
+            <li><a href="http://class.ruten.com.tw/category/main?0025" title="成人專區">成人專區</a></li>
+            <li class="view-all-catalogue"><a href="http://class.ruten.com.tw/category/" title="全部分類">&gt;&gt;全部分類</a></li>
+          </ul>
+        </div>
+
+        <div class="hot-catalogue">
+          <h3 class="hot"><span>熱門搜尋：</span></h3>
+          <h4 class="hot">
+            <a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3164__zoneid=49__source=search__cb=00b9878101__maxdest=http://class.ruten.com.tw/category/sub00.php?c=001100020006' target='_blank'>蘋果筆電</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3165__zoneid=49__source=search__cb=82ca4f86a1__maxdest=http://search.ruten.com.tw/search/s000.php?searchfrom=headbar&k=%A9%40%B0%D8%BE%F7&t=0&ctab=3' target='_blank'>二手咖啡機</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3168__zoneid=49__source=search__cb=534e4c65a5__maxdest=http://search.ruten.com.tw/search/s000.php?searchfrom=headbar&k=%AE%FC%A8%A4%A4C%B8%B9&t=0' target='_blank'>海角七號</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3160__zoneid=49__source=search__cb=91ce85464f__maxdest=http://class.ruten.com.tw/category/main?001200070013' target='_blank'>臉部保溼</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3159__zoneid=49__source=search__cb=7d98f80235__maxdest=http://class.ruten.com.tw/category/main?00020030' target='_blank'>針織衫</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3176__zoneid=49__source=search__cb=5e124e8955__maxdest=http://class.ruten.com.tw/category/main?00180002' target='_blank'>型男襯衫</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3167__zoneid=49__source=search__cb=acc69aea1d__maxdest=http://search.ruten.com.tw/search/s000.php?searchfrom=headbar&k=%A6a%BA%BB%A9%C7%AB%C8&t=0' target='_blank'>地獄怪客</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3161__zoneid=49__source=search__cb=f179a6f307__maxdest=http://search.ruten.com.tw/search/s000.php?searchfrom=headbar&k=%C3%C9&c=0024&o=9' target='_blank'>肥美秋蟹</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3171__zoneid=49__source=search__cb=1555dd5187__maxdest=http://class.ruten.com.tw/category/sub00.php?c=00150001000400010004' target='_blank'>高跟短靴</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3155__zoneid=49__source=search__cb=ad0a5907ff__maxdest=http://search.ruten.com.tw/search/s000.php?searchfrom=headbar&k=%A4G%A4%E2%B5%A7%B9q&t=0' target='_blank'>二手筆電</a>          </h4>
+        </div>
+    </div>
+     <div class="navigation">
+      <p>
+        <span class="ruten-home">
+          <a href="http://www.ruten.com.tw" title="回到露天拍賣的首頁">露天拍賣</a></span>
+          <span class="located">
+           > 商品搜尋結果          </span>
+      </p>
+    </div>    <div class="ruten-board">
+      <div class="board1 srch-more">
+	<form name="fm_search_sidebar" action="http://search.ruten.com.tw/search/s000.php" method="get" >
+	<input type="hidden" name="c" value="0">
+	<input type="hidden" name="fz" value="">
+	<input type="hidden" name="ctab" value="0">
+	<input type="hidden" name="searchfrom" value="searchbar">
+	<input type="hidden" name="o" value="11">
+<input type="hidden" name="m" value="1">
+	<input type="hidden" name="f" value="">
+        <h2><span>縮小搜尋範圍</span></h2>
+        <p class="more"><a href="http://search.ruten.com.tw/search/s001.php"><span>進階</span></a></p>
+        <div class="content">
+        <ul>
+          <li class="keyworld"><label for="kyw">關鍵字</label><input id="kyw" type="text" name="k" value="iPod" onKeyDown="if(event.keyCode == 13) return js_compose_params_sidebar();" /></li>
+          <li class="locate"><label for="fy">所在地</label>
+          	<select id="fy" name="fy">
+<option value="0" selected>不限地區</option>
+<option value="1" >台北市</option>
+<option value="2" >基隆市</option>
+<option value="3" >台北縣</option>
+<option value="4" >宜蘭縣</option>
+<option value="5" >桃園縣</option>
+<option value="6" >新竹市</option>
+<option value="7" >新竹縣</option>
+<option value="8" >苗栗縣</option>
+<option value="9" >台中市</option>
+<option value="10" >台中縣</option>
+<option value="11" >彰化縣</option>
+<option value="12" >南投縣</option>
+<option value="13" >嘉義市</option>
+<option value="14" >嘉義縣</option>
+<option value="15" >雲林縣</option>
+<option value="16" >台南市</option>
+<option value="17" >台南縣</option>
+<option value="18" >高雄市</option>
+<option value="19" >高雄縣</option>
+<option value="20" >澎湖縣</option>
+<option value="21" >屏東縣</option>
+<option value="22" >台東縣</option>
+<option value="23" >花蓮縣</option>
+<option value="24" >金門縣</option>
+<option value="25" >連江縣</option>
+<option value="26" >其他地區</option>
+          	</select>
+          </li>
+          <li class="addtional">
+            <fieldset><legend></legend>
+              <span class="sub1"><input id="fx1" type="checkbox" value="1" name="fx"  /><label for="fx1">有照片</label></span>
+              <span class="sub2"><input id="fx2" type="checkbox" value="8" name="fx"  /><label for="fx2">直購價</label></span>
+              <span class="sub3"><input id="fx3" type="checkbox" value="4" name="fx"  /><label for="fx3">全新品</label></span>
+              <span class="sub4"><input id="fx4" type="checkbox" value="16" name="fx"  /><label for="fx4">無底價</label></span>
+              <span class="sub5"><input id="fx5" type="checkbox" value="2" name="fx"  /><label for="fx5">今天刊登</label></span>
+              <span class="sub6"><input id="fx6" type="checkbox" value="32" name="fx"  /><label for="fx6">已達底價</label></span>
+            </fieldset>
+          </li>
+          <li class="price-range">
+            <fieldset><legend>價格範圍</legend>
+              <span class="start"><label for="p1">價格下限</label><input id="p1" type="text" name="p1" maxlength="10" value=""/></span>~<span class="end"><label for="p2">價格上限</label><input id="p2" type="text" name="p2" maxlength="10" value=""/>元</span>
+            </fieldset>
+          </li>
+          <li class="carriage-range">
+          	<label for="carriage">運費範圍</label>
+          	<select id="carriage" name="h">
+          		<option value="0" selected>不限</option>
+          		<option value="1" >免運費</option>
+          		<option value="2" >30元以下</option>
+          		<option value="3" >50元以下</option>
+          		<option value="4" >80元以下</option>
+          		<option value="5" >150元以下</option>
+          		<option value="6" >500元以下</option>
+          	</select>
+          </li>
+          <li class="btn"><input type="button" value="搜尋" onClick="return js_compose_params_sidebar();" /></li>
+        </ul>
+        </div>
+        </form>
+      </div>	      <div class="board1 match-catalogue">
+        <h2><span>符合的商品分類</span></h2>
+        <div class="content">
+        	<ul>
+        
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0023"> 影音、家電 </h2><span class="total">(5551)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0011"> 電腦軟硬體、PDA </h2><span class="total">(965)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0021"> 手機、通訊 </h2><span class="total">(692)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0014"> 女性飾品、配件 </h2><span class="total">(136)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0012"> 保養、彩妝 </h2><span class="total">(4)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0019"> 交通工具 </h2><span class="total">(310)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0010"> 音樂、電影 </h2><span class="total">(18)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0006"> 書刊、文具 </h2><span class="total">(159)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0022"> 電玩、遊戲 </h2><span class="total">(56)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0001"> 嬰幼童、母親 </h2><span class="total">(5)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0005"> 玩具、公仔 </h2><span class="total">(47)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0009"> 生活、居家 </h2><span class="total">(35)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0018"> 男裝精品、配件 </h2><span class="total">(62)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0007"> 不動產、服務 </h2><span class="total">(4)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0008"> 相機、攝影機 </h2><span class="total">(90)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0003"> 運動、健身 </h2><span class="total">(18)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0002"> 流行女裝 </h2><span class="total">(10)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0015"> 女鞋、男鞋 </h2><span class="total">(3)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0020"> 休閒、旅遊 </h2><span class="total">(6)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0013"> 古董、收藏 </h2><span class="total">(13)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0016"> 女性內衣 </h2><span class="total">(2)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0017"> 鐘錶、眼鏡 </h2><span class="total">(2)</span></a></li>
+      	
+          <li><h2 class="title"><a href="?searchfrom=headbar&k=iPod&t=0&c=0004"> 明星、偶像 </h2><span class="total">(2)</span></a></li>
+      	      		</ul>
+        </div>
+      </div>
+         <script type="text/javascript" src="/js/cookie.js"></script>
+<script type="text/javascript">
+  function clear_recent()
+  {
+	  SetCookie('recent_visits','','/','ruten.com.tw');
+	  document.getElementById("recent").innerHTML = '';
+	  return false;
+  }
+</script>
+      <div class="board1 recent">
+        <h2><span>最近瀏覽的商品</span></h2>
+        <p class="more"><a href="javascript:void(0);" onclick="javascript:clear_recent();"><span>清除資料</span></a></p>
+        <div class="content">
+        <ul id= "recent">
+                   </ul>
+        </div>
+      </div>    </div>
+
+    <!-- 9. 分類區塊主要內容 -->
+    <div class="content">
+      <div class="data-list">
+        <ul class="item-type">
+          <li class="sub1 located "><a title="">所有商品</a></li>
+          <li class="sub2  "><a href="?searchfrom=headbar&k=iPod&t=0&ctab=1" title="">最新刊登</a></li>
+          	<!--一元起標專區拿掉此tag -->
+                 <li class="sub3  "><a href="?searchfrom=headbar&k=iPod&t=0&ctab=2" title="">一元起標</a></li>
+                           <li class="sub4  "><a href="?searchfrom=headbar&k=iPod&t=0&ctab=3" title="">二手櫥窗</a></li>
+                  </ul>
+        <p class="data-detail">共<span class="total">8215</span>項商品：<span class="current-page">1</span>/<span class="total-page">165</span><span class="pre disabled"><a  title="上頁">&lt;上頁</a></span><span class="next"><a href="?searchfrom=headbar&k=iPod&t=0&p=2" title="下頁">下頁&gt;</a></span></p>
+        <ul class="view-type">
+          <li class="sub1">顯示方式：<span class="type1 located"><a  title="圖文" onclick="return clickurl(1,1,11,1,this.href);">圖文</a></span><span class="type2 "><a href="?searchfrom=headbar&k=iPod&t=0&m=2" title="圖片" onclick="return clickurl(1,1,11,2,this.href);">圖片</a></span><span class="type3 "><a href="?searchfrom=headbar&k=iPod&t=0&m=0" title="文字" onclick="return clickurl(1,1,11,0,this.href);">文字</a></span></li>
+          <li class="sub2">每頁顯示筆數：<span class="type1 "><a href="?searchfrom=headbar&k=iPod&t=0&o=43">30</a></span><span class="type2 located"><a >50</a></span><span class="type3 "><a href="?searchfrom=headbar&k=iPod&t=0&o=107">70</a></span></li>
+        </ul>
+        <div class="rank-setting">
+          <p class="rank-type">排序方式：</p>
+          <ul class="rank-type">
+            <li class="sub0"><span class="dn  located"><a href="?searchfrom=headbar&k=iPod&t=0&o=10" title="BuyRank" onclick="return clickurl(2,11,10,1,this.href);">BuyRank</a></span><span class="more"><a href="http://event.ruten.com.tw/pm/buyrank" target="_blank" title="buyrank說明">(說明)</a></span></li><li class="sub1"><span class="  "><a href="?searchfrom=headbar&k=iPod&t=0&o=4" title="目前出價" onclick="return clickurl(2,11,4,1,this.href);">目前出價</a></span></li><li class="sub2"><span class="  "><a href="?searchfrom=headbar&k=iPod&t=0&o=6" title="直購價" onclick="return clickurl(2,11,6,1,this.href);">直購價</a></span></li><li class="sub3"><span class="  "><a href="?searchfrom=headbar&k=iPod&t=0&o=9" title="出價次數" onclick="return clickurl(2,11,9,1,this.href);">出價次數</a></span></li><li class="sub4"><span class=" new "><a href="?searchfrom=headbar&k=iPod&t=0&o=13" title="問答數" onclick="return clickurl(2,11,13,1,this.href);">問答數</a></span></li><li class="sub5"><span class=" new "><a href="?searchfrom=headbar&k=iPod&t=0&o=3" title="追蹤數" onclick="return clickurl(2,11,3,1,this.href);">追蹤數</a></span></li><li class="sub6"><span class="  "><a href="?searchfrom=headbar&k=iPod&t=0&o=0" title="剩餘時間" onclick="return clickurl(2,11,0,1,this.href);">剩餘時間</a></span></li>          </ul>
+        </div>
+
+<ul class="items tempA">          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080714249727" title="前往免運費今天寄隔天到．原廠蘋果 iPod 耳機Classic Touch Nano Shuffle．MP3 MP4皆可用頁面"><img src="http://a.rimg.com.tw/s1/2/95/ff/11080714249727_781_s.jpg"" alt="免運費今天寄隔天到．原廠蘋果 iPod 耳機Classic Touch Nano Shuffle．MP3 MP4皆可用"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080714249727" title="前往商品說明頁面">免運費今天寄隔天到．原廠蘋果 iPod 耳機Classic Touch Nano Shuffle．MP3 MP4皆可用</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">199</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=bestbuy_wholesale8" title="前往賣家的拍賣首頁">bestbuy_wholesale8</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?bestbuy_wholesale8" title="觀看評價">219</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','bestbuy_wholesale8',1,'11080714249727'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080714249727#detail">21</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">977</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">2</span>天<span class="hr">3</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080714249727#detail" title="">8</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">14</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080714249727);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080613028562" title="前往【數位花園】運動用mp3/手機/PDA手臂防護袋《裝ipod 很合適》超低價超好用~品質好~頁面"><img src="http://b.rimg.com.tw/s2/a/12/d2/11080613028562_104_s.jpg"" alt="【數位花園】運動用mp3/手機/PDA手臂防護袋《裝ipod 很合適》超低價超好用~品質好~"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080613028562" title="前往商品說明頁面">【數位花園】運動用mp3/手機/PDA手臂防護袋《裝ipod 很合適》超低價超好用~品質好~</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">199</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">30</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=f6303133" title="前往賣家的拍賣首頁">f6303133</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?f6303133" title="觀看評價">326</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','f6303133',1,'11080613028562'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080613028562#detail">28</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">462</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">桃園縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">5</span>天<span class="hr">5</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080613028562#detail" title="">13</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">35</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080613028562);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080722198403" title="前往好米亞~自行車、腳踏車、重型機車熱賣配件~【全新PDA、iPod / iPhone 、GPS、手機 固定架】$199含郵頁面"><img src="http://c.rimg.com.tw/s1/b/df/83/11080722198403_242_s.jpg"" alt="好米亞~自行車、腳踏車、重型機車熱賣配件~【全新PDA、iPod / iPhone 、GPS、手機 固定架】$199含郵"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080722198403" title="前往商品說明頁面">好米亞~自行車、腳踏車、重型機車熱賣配件~【全新PDA、iPod / iPhone 、GPS、手機 固定架】$199含郵</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">199</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=mikesumitw" title="前往賣家的拍賣首頁">mikesumitw</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?mikesumitw" title="觀看評價">76</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','mikesumitw',1,'11080722198403'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080722198403#detail">15</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">12</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080722198403#detail" title="">3</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">18</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080722198403);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080626028049" title="前往【Apple蘋果原廠】1394孔充電器+兩用傳輸線ipod video.classic.nano.touch旅充頁面"><img src="http://d.rimg.com.tw/s1/0/6e/11/11080626028049_470_s.jpg"" alt="【Apple蘋果原廠】1394孔充電器+兩用傳輸線ipod video.classic.nano.touch旅充"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080626028049" title="前往商品說明頁面">【Apple蘋果原廠】1394孔充電器+兩用傳輸線ipod video.classic.nano.touch旅充</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">299</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=eggtooo" title="前往賣家的拍賣首頁">eggtooo</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?eggtooo" title="觀看評價">231</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','eggtooo',1,'11080626028049'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080626028049#detail">10</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">988</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">18</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080626028049#detail" title="">4</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">6</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080626028049);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080404292607" title="前往超特別高品質的新產品!促銷價~Ipod Nano3代果凍套頁面"><img src="http://e.rimg.com.tw/s1/9/03/ff/11080404292607_276_s.jpg"" alt="超特別高品質的新產品!促銷價~Ipod Nano3代果凍套"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080404292607" title="前往商品說明頁面">超特別高品質的新產品!促銷價~Ipod Nano3代果凍套</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">35</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">50</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=kaofen187" title="前往賣家的拍賣首頁">kaofen187</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?kaofen187" title="觀看評價">36</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','kaofen187',1,'11080404292607'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080404292607#detail">10</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">79</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">桃園縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">4</span>天<span class="hr">7</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080404292607#detail" title="">14</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">10</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080404292607);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080713070076" title="前往『Liberty shop』ipod 蘋果二代 1.8寸26萬色  詞曲同步/FM/電子書/電影↘瘋狂下殺598元!!★不論件數！只收一次運費★頁面"><img src="http://f.rimg.com.tw/s2/0/95/fc/11080713070076_395_s.jpg"" alt="『Liberty shop』ipod 蘋果二代 1.8寸26萬色  詞曲同步/FM/電子書/電影↘瘋狂下殺598元!!★不論件數！只收一次運費★"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080713070076" title="前往商品說明頁面">『Liberty shop』ipod 蘋果二代 1.8寸26萬色  詞曲同步/FM/電子書/電影↘瘋狂下殺598元!!★不論件數！只收一次運費★</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">598</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">50</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=mylibertyhouse" title="前往賣家的拍賣首頁">mylibertyhouse</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?mylibertyhouse" title="觀看評價">36</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','mylibertyhouse',1,'11080713070076'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080713070076#detail">12</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">87</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="hr">2</span>小時7分</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080713070076#detail" title="">41</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">42</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080713070076);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080409615220" title="前往【小P】批發倉庫 似2代iPod shuffle/小夾子/MP3/1GB/隨身碟【在送6大實用禮】拼了!!!頁面"><img src="http://a.rimg.com.tw/s2/a/3b/74/11080409615220_463_s.jpg"" alt="【小P】批發倉庫 似2代iPod shuffle/小夾子/MP3/1GB/隨身碟【在送6大實用禮】拼了!!!"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080409615220" title="前往商品說明頁面">【小P】批發倉庫 似2代iPod shuffle/小夾子/MP3/1GB/隨身碟【在送6大實用禮】拼了!!!</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">340</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">60</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=pinky730225" title="前往賣家的拍賣首頁">pinky730225</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?pinky730225" title="觀看評價">143</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','pinky730225',1,'11080409615220'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080409615220#detail">7</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">2</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台中市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：33分</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080409615220#detail" title="">6</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">19</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080409615220);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080708376102" title="前往品質最優-車用卡匣錄音帶音源鍍金頭轉換器(MP3/錄音筆/iPod/MD/CD/PDA)含運費頁面"><img src="http://b.rimg.com.tw/s2/8/f6/26/11080708376102_888_s.jpg"" alt="品質最優-車用卡匣錄音帶音源鍍金頭轉換器(MP3/錄音筆/iPod/MD/CD/PDA)含運費"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080708376102" title="前往商品說明頁面">品質最優-車用卡匣錄音帶音源鍍金頭轉換器(MP3/錄音筆/iPod/MD/CD/PDA)含運費</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">100</span><span class="currency">元</span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=r06226686" title="前往賣家的拍賣首頁">r06226686</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?r06226686" title="觀看評價">23</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','r06226686',1,'11080708376102'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080708376102#detail">7</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">91</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">38</span>天<span class="hr">4</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080708376102#detail" title="">2</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">5</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080708376102);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080229885970" title="前往MP3/MP4/iPod 人形造型耳機收納小玩意/集線器/收線器/繞線器/捲線器BA07頁面"><img src="http://c.rimg.com.tw/s2/3/c8/12/11080229885970_962_s.gif"" alt="MP3/MP4/iPod 人形造型耳機收納小玩意/集線器/收線器/繞線器/捲線器BA07"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080229885970" title="前往商品說明頁面">MP3/MP4/iPod 人形造型耳機收納小玩意/集線器/收線器/繞線器/捲線器BA07</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">39</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">30</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=a2213882000" title="前往賣家的拍賣首頁">a2213882000</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?a2213882000" title="觀看評價">409</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','a2213882000',1,'11080229885970'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080229885970#detail">15</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">70</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">高雄市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">27</span>天<span class="hr">23</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080229885970#detail" title="">12</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">41</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080229885970);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080810868765" title="前往【浮若生夢SHOP】三合一 iPod/iPhone充電器(旅充.車充.渦捲伸縮式充電傳輸線)大促銷頁面"><img src="http://d.rimg.com.tw/s1/4/e0/1d/11080810868765_468_s.jpg"" alt="【浮若生夢SHOP】三合一 iPod/iPhone充電器(旅充.車充.渦捲伸縮式充電傳輸線)大促銷"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080810868765" title="前往商品說明頁面">【浮若生夢SHOP】三合一 iPod/iPhone充電器(旅充.車充.渦捲伸縮式充電傳輸線)大促銷</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">98</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">50</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=frozenmod" title="前往賣家的拍賣首頁">frozenmod</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?frozenmod" title="觀看評價">163</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','frozenmod',1,'11080810868765'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080810868765#detail">8</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">991</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">11</span>天<span class="hr">17</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080810868765#detail" title="">2</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">6</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080810868765);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080805690818" title="前往【工廠小舖】↘殺3.0吋iPod Touch  觸控式超級MP5 /RMVB/免轉檔/內建遊戲8G(2G/1199/4G1449/8G1799)頁面"><img src="http://e.rimg.com.tw/s2/5/dd/c2/11080805690818_156_s.jpg"" alt="【工廠小舖】↘殺3.0吋iPod Touch  觸控式超級MP5 /RMVB/免轉檔/內建遊戲8G(2G/1199/4G1449/8G1799)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080805690818" title="前往商品說明頁面">【工廠小舖】↘殺3.0吋iPod Touch  觸控式超級MP5 /RMVB/免轉檔/內建遊戲8G(2G/1199/4G1449/8G1799)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">1,799</span><span class="currency">元</span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=factory_shop_net" title="前往賣家的拍賣首頁">factory_shop_net</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?factory_shop_net" title="觀看評價">193</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','factory_shop_net',1,'11080805690818'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080805690818#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">995</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">19</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080805690818#detail" title="">9</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">21</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080805690818);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080730128247" title="前往精品舖§ 全新款頂級 PHILIPS SHE9850【重低音】耳塞密閉式耳機 公司貨 保固一年 適用MP3、MP4、ipod、隨身CD...等頁面"><img src="http://f.rimg.com.tw/s1/4/df/77/11080730128247_775_s.jpg"" alt="精品舖§ 全新款頂級 PHILIPS SHE9850【重低音】耳塞密閉式耳機 公司貨 保固一年 適用MP3、MP4、ipod、隨身CD...等"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080730128247" title="前往商品說明頁面">精品舖§ 全新款頂級 PHILIPS SHE9850【重低音】耳塞密閉式耳機 公司貨 保固一年 適用MP3、MP4、ipod、隨身CD...等</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">2,300</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">60</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=king698" title="前往賣家的拍賣首頁">king698</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?king698" title="觀看評價">105</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','king698',1,'11080730128247'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080730128247#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">26</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="hr">4</span>小時57分</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080730128247#detail" title="">2</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">6</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080730128247);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11071101561969" title="前往[保證最低價]日本 ELECOM 重低音耳機EHP-CL430(白色) ipod/NB/PSP最適用 現貨供應頁面"><img src="http://a.rimg.com.tw/s1/8/80/71/11071101561969_629_s.gif"" alt="[保證最低價]日本 ELECOM 重低音耳機EHP-CL430(白色) ipod/NB/PSP最適用 現貨供應"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11071101561969" title="前往商品說明頁面">[保證最低價]日本 ELECOM 重低音耳機EHP-CL430(白色) ipod/NB/PSP最適用 現貨供應</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">740</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">60</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=save_3c" title="前往賣家的拍賣首頁">save_3c</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?save_3c" title="觀看評價">171</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','save_3c',1,'11071101561969'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11071101561969#detail">25</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">974</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">2</span>天<span class="hr">7</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11071101561969#detail" title="">15</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">50</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11071101561969);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080522433101" title="前往【穩酷手創館】一般MP3、IPOD輸出到 錄音帶上 （老車救星！）只要 29元！頁面"><img src="http://b.rimg.com.tw/s1/3/b2/4d/11080522433101_635_s.jpg"" alt="【穩酷手創館】一般MP3、IPOD輸出到 錄音帶上 （老車救星！）只要 29元！"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080522433101" title="前往商品說明頁面">【穩酷手創館】一般MP3、IPOD輸出到 錄音帶上 （老車救星！）只要 29元！</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">29</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">35</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=kevin525" title="前往賣家的拍賣首頁">kevin525</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?kevin525" title="觀看評價">83</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','kevin525',1,'11080522433101'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080522433101#detail">9</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">988</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">物品中描述</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">13</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080522433101#detail" title="">0</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">17</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080522433101);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080721102385" title="前往小齊的家　多功能車架～適用各款手機或PDA、PMP、GPS、IPOD車架頁面"><img src="http://c.rimg.com.tw/s1/b/26/31/11080721102385_277_s.jpg"" alt="小齊的家　多功能車架～適用各款手機或PDA、PMP、GPS、IPOD車架"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080721102385" title="前往商品說明頁面">小齊的家　多功能車架～適用各款手機或PDA、PMP、GPS、IPOD車架</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">59</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=pool0920168" title="前往賣家的拍賣首頁">pool0920168</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?pool0920168" title="觀看評價">283</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','pool0920168',1,'11080721102385'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080721102385#detail">3</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">8</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">20</span>天<span class="hr">23</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080721102385#detail" title="">0</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">1</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080721102385);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11071108196871" title="前往度假打工專用Urbantool -騎腳踏車,慢跑,背包客最愛 iPod , iPhone ,MP3 相機背包頁面"><img src="http://d.rimg.com.tw/s1/d/be/07/11071108196871_753_s.jpg"" alt="度假打工專用Urbantool -騎腳踏車,慢跑,背包客最愛 iPod , iPhone ,MP3 相機背包"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11071108196871" title="前往商品說明頁面">度假打工專用Urbantool -騎腳踏車,慢跑,背包客最愛 iPod , iPhone ,MP3 相機背包</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">1,746</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=agbr1224" title="前往賣家的拍賣首頁">agbr1224</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?agbr1224" title="觀看評價">10</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','agbr1224',1,'11071108196871'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11071108196871#detail">7</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">43</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">新竹市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">10</span>天<span class="hr">19</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11071108196871#detail" title="">16</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">31</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11071108196871);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080903871356" title="前往IPOD TOUCH 8G用不到隨便賣頁面"><img src="http://e.rimg.com.tw/s2/f/fb/7c/11080903871356_917_s.jpg"" alt="IPOD TOUCH 8G用不到隨便賣"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080903871356" title="前往商品說明頁面">IPOD TOUCH 8G用不到隨便賣</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">5,300</span><span class="currency">元</span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=morgan61608" title="前往賣家的拍賣首頁">morgan61608</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?morgan61608" title="觀看評價">6</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','morgan61608',1,'11080903871356'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080903871356#detail">4</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type"></span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">15</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080903871356#detail" title="">9</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">8</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080903871356);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080720692994" title="前往iPod可&amp;#25813;式USB充電器,APPLE原廠,體積小便於攜帶,充電快,適應於各種相關規格的手機,mp3,mp4的充電,全新頁面"><img src="http://f.rimg.com.tw/s2/4/e7/02/11080720692994_658_s.jpg"" alt="iPod可&amp;#25813;式USB充電器,APPLE原廠,體積小便於攜帶,充電快,適應於各種相關規格的手機,mp3,mp4的充電,全新"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080720692994" title="前往商品說明頁面">iPod可&#25813;式USB充電器,APPLE原廠,體積小便於攜帶,充電快,適應於各種相關規格的手機,mp3,mp4的充電,全新</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">399</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">50</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=fasa119" title="前往賣家的拍賣首頁">fasa119</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?fasa119" title="觀看評價">606</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','fasa119',1,'11080720692994'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080720692994#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">96</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="hr">17</span>小時35分</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080720692994#detail" title="">4</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">3</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080720692994);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080803332155" title="前往『Liberty shop』ipod 蘋果二代 1.8寸26萬色  詞曲同步/FM/電子書/電影↘瘋狂下殺598元!!★不論件數！只收一次運費★頁面"><img src="http://a.rimg.com.tw/s1/1/e0/3b/11080803332155_950_s.jpg"" alt="『Liberty shop』ipod 蘋果二代 1.8寸26萬色  詞曲同步/FM/電子書/電影↘瘋狂下殺598元!!★不論件數！只收一次運費★"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080803332155" title="前往商品說明頁面">『Liberty shop』ipod 蘋果二代 1.8寸26萬色  詞曲同步/FM/電子書/電影↘瘋狂下殺598元!!★不論件數！只收一次運費★</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">598</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">50</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=mylibertyhouse" title="前往賣家的拍賣首頁">mylibertyhouse</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?mylibertyhouse" title="觀看評價">36</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','mylibertyhouse',1,'11080803332155'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080803332155#detail">3</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">98</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">1</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080803332155#detail" title="">25</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">9</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080803332155);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080711053962" title="前往《逸凱的店》士林電機~IMAGE 全新豆腐人充電器(USB) 2代 限量10周年杯墊組 適用 IPOD IRIVER ， 免運！頁面"><img src="http://b.rimg.com.tw/s2/1/d2/8a/11080711053962_169_s.jpg"" alt="《逸凱的店》士林電機~IMAGE 全新豆腐人充電器(USB) 2代 限量10周年杯墊組 適用 IPOD IRIVER ， 免運！"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080711053962" title="前往商品說明頁面">《逸凱的店》士林電機~IMAGE 全新豆腐人充電器(USB) 2代 限量10周年杯墊組 適用 IPOD IRIVER ， 免運！</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">390</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=kai_blue_sky" title="前往賣家的拍賣首頁">kai_blue_sky</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?kai_blue_sky" title="觀看評價">32</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','kai_blue_sky',1,'11080711053962'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080711053962#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">7</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">6</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080711053962#detail" title="">2</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">3</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080711053962);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080502335581" title="前往【浮若生夢SHOP】全新公司貨日本 ELECOM「CL430摺疊頭戴式耳機」耳機 (iPOD/MP3)頁面"><img src="http://c.rimg.com.tw/s1/1/08/5d/11080502335581_332_s.jpg"" alt="【浮若生夢SHOP】全新公司貨日本 ELECOM「CL430摺疊頭戴式耳機」耳機 (iPOD/MP3)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080502335581" title="前往商品說明頁面">【浮若生夢SHOP】全新公司貨日本 ELECOM「CL430摺疊頭戴式耳機」耳機 (iPOD/MP3)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">730</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">60</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=frozenmod" title="前往賣家的拍賣首頁">frozenmod</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?frozenmod" title="觀看評價">163</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','frozenmod',1,'11080502335581'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080502335581#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">92</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">5</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080502335581#detail" title="">9</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">10</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080502335581);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080614419386" title="前往{傑美特}【iPod風格水滴款耳機】In-Earphone高音質內耳式適用iPod/mp3/mp4/psp頁面"><img src="http://d.rimg.com.tw/s2/f/4b/ba/11080614419386_432_s.jpg"" alt="{傑美特}【iPod風格水滴款耳機】In-Earphone高音質內耳式適用iPod/mp3/mp4/psp"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080614419386" title="前往商品說明頁面">{傑美特}【iPod風格水滴款耳機】In-Earphone高音質內耳式適用iPod/mp3/mp4/psp</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">99</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=yoyo1881" title="前往賣家的拍賣首頁">yoyo1881</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?yoyo1881" title="觀看評價">71</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','yoyo1881',1,'11080614419386'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080614419386#detail">3</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">7</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">6</span>天<span class="hr">2</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080614419386#detail" title="">0</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">1</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080614419386);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080326550215" title="前往第四代  ipod  20G頁面"><img src="http://e.rimg.com.tw/s1/6/c2/c7/11080326550215_397_s.jpg"" alt="第四代  ipod  20G"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080326550215" title="前往商品說明頁面">第四代  ipod  20G</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">3,500</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=chungking88" title="前往賣家的拍賣首頁">chungking88</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?chungking88" title="觀看評價">10</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','chungking88',1,'11080326550215'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080326550215#detail">0</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">台中市</span></li>
+                <li class="statu">物品狀況：<span class="type">物品中描述</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">20</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080326550215#detail" title="">14</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">27</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080326550215);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080610459409" title="前往IPod video 30G 全賣場最便宜 3500及決頁面"><img src="http://f.rimg.com.tw/s1/2/df/11/11080610459409_497_s.jpg"" alt="IPod video 30G 全賣場最便宜 3500及決"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080610459409" title="前往商品說明頁面">IPod video 30G 全賣場最便宜 3500及決</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">3,500</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=howard923" title="前往賣家的拍賣首頁">howard923</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?howard923" title="觀看評價">5</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','howard923',1,'11080610459409'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080610459409#detail">2</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">物品中描述</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">10</span>天<span class="hr">3</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080610459409#detail" title="">4</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">16</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080610459409);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080719722470" title="前往3C玩家IPOD video photo GPS PDA手機車架,ipod mp3 耳機/隨身聽/ 充電器/音源轉換器頁面"><img src="http://a.rimg.com.tw/s2/6/17/e6/11080719722470_838_s.jpg"" alt="3C玩家IPOD video photo GPS PDA手機車架,ipod mp3 耳機/隨身聽/ 充電器/音源轉換器"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080719722470" title="前往商品說明頁面">3C玩家IPOD video photo GPS PDA手機車架,ipod mp3 耳機/隨身聽/ 充電器/音源轉換器</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">59</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=happy8679" title="前往賣家的拍賣首頁">happy8679</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?happy8679" title="觀看評價">451</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','happy8679',1,'11080719722470'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080719722470#detail">5</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">95</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">50</span>天<span class="hr">2</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080719722470#detail" title="">9</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">13</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080719722470);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080729018232" title="前往-小雞3C賣場  蘋果機3代IPOD等級音效晶片 MP3/MP4 2G(680)/4G (899)限量發行中頁面"><img src="http://b.rimg.com.tw/s2/3/ef/78/11080729018232_563_s.jpg"" alt="-小雞3C賣場  蘋果機3代IPOD等級音效晶片 MP3/MP4 2G(680)/4G (899)限量發行中"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080729018232" title="前往商品說明頁面">-小雞3C賣場  蘋果機3代IPOD等級音效晶片 MP3/MP4 2G(680)/4G (899)限量發行中</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">680</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=shiu617327" title="前往賣家的拍賣首頁">shiu617327</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?shiu617327" title="觀看評價">26</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','shiu617327',1,'11080729018232'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080729018232#detail">2</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">8</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">桃園縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">2</span>天<span class="hr">22</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080729018232#detail" title="">11</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">9</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080729018232);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080813960759" title="前往☆Camel.Dog☆香港設計品牌 Q-Max iPod Shuffle 2代 iDevil 惡魔天使保護套/二代 1.2G頁面"><img src="http://c.rimg.com.tw/s1/4/0e/37/11080813960759_365_s.jpg"" alt="☆Camel.Dog☆香港設計品牌 Q-Max iPod Shuffle 2代 iDevil 惡魔天使保護套/二代 1.2G"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080813960759" title="前往商品說明頁面">☆Camel.Dog☆香港設計品牌 Q-Max iPod Shuffle 2代 iDevil 惡魔天使保護套/二代 1.2G</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">120</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">50</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=camel_dog" title="前往賣家的拍賣首頁">camel_dog</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?camel_dog" title="觀看評價">167</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','camel_dog',1,'11080813960759'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080813960759#detail">3</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">7</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">4</span>天<span class="hr">7</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080813960759#detail" title="">4</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">4</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080813960759);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080610445796" title="前往【蜜芋頭】蘋果牌 iPOD Video  MP3 60GB頁面"><img src="http://d.rimg.com.tw/s2/2/a9/e4/11080610445796_691_s.jpg"" alt="【蜜芋頭】蘋果牌 iPOD Video  MP3 60GB"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080610445796" title="前往商品說明頁面">【蜜芋頭】蘋果牌 iPOD Video  MP3 60GB</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">6,500</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=a200253846" title="前往賣家的拍賣首頁">a200253846</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?a200253846" title="觀看評價">139</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','a200253846',1,'11080610445796'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080610445796#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">1</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">近全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">9</span>天<span class="hr">22</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080610445796#detail" title="">0</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">14</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080610445796);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11070102583862" title="前往new IPOD NANO 2G頁面"><img src="http://e.rimg.com.tw/s2/d/4e/36/11070102583862_997_s.jpg"" alt="new IPOD NANO 2G"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11070102583862" title="前往商品說明頁面">new IPOD NANO 2G</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">3,000</span><span class="currency">元</span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=startwin" title="前往賣家的拍賣首頁">startwin</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?startwin" title="觀看評價">108</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','startwin',1,'11070102583862'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11070102583862#detail">0</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">使用1個月</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">20</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11070102583862#detail" title="">16</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">37</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11070102583862);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080805735919" title="前往好米亞~自行車、腳踏車、重型機車熱賣配件~【全新PDA、iPod / iPhone、GPS、手機 固定架】$199含郵頁面"><img src="http://f.rimg.com.tw/s1/6/8d/ef/11080805735919_943_s.jpg"" alt="好米亞~自行車、腳踏車、重型機車熱賣配件~【全新PDA、iPod / iPhone、GPS、手機 固定架】$199含郵"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080805735919" title="前往商品說明頁面">好米亞~自行車、腳踏車、重型機車熱賣配件~【全新PDA、iPod / iPhone、GPS、手機 固定架】$199含郵</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">199</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=mikesumitw" title="前往賣家的拍賣首頁">mikesumitw</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?mikesumitw" title="觀看評價">76</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','mikesumitw',1,'11080805735919'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080805735919#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">25</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">2</span>天<span class="hr">4</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080805735919#detail" title="">0</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">5</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080805735919);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+<li>      <div class="advertisement" >
+        <div class="sub1 jscron-1">
+          <div id="adSub1"><script type='text/javascript' src='http://ahd.ruten.com.tw/delivery/fl.js'></script>
+<div id='ox_115955581686350fcd5b59d478423058' style='display: inline;'><img src='http://a.rimg.com.tw/ahd/1x1.gif' alt='' title='' border='0' /></div>
+<script type='text/javascript'><!--// <![CDATA[
+var ox_swf = new FlashObject('http://b.rimg.com.tw/ahd/420x80-20k.swf', 'Advertisement', '420', '80', '7');
+    ox_swf.addVariable('alink1', 'http%3A%2F%2Fahd.ruten.com.tw%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D3479__zoneid%3D16__source%3Dsearch__cb%3D6c8c66e7fe__maxdest%3Dhttp%3A%2F%2Fmx1.spidernetwork.com.tw%2Fedm%2F3426%2Fruten_wb%2F6');
+    ox_swf.addVariable('atar1', '_blank');
+
+ox_swf.addParam('allowScriptAccess','always');
+ox_swf.write('ox_115955581686350fcd5b59d478423058');
+// ]]> --></script></div>
+        </div>
+        <div class="sub2 jscron-1">
+          <div id="adSub2"><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3306__zoneid=17__source=search__cb=2c5efdee0f__maxdest=http://mkt.ruten.com.tw/crown_book' target='_blank'><img src='http://c.rimg.com.tw/ahd/cm_crown_book_c03.gif' width='350' height='80' alt='' title='' border='0' /></a></div>
+        </div>
+        <div class="text2"><span class="title">市場快訊</span><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3486__zoneid=18__source=search__cb=293eaf4ca4__maxdest=http://boss.store.pchome.com.tw/ad.htm?ad=ru0809' target='_blank'>免月租開店輕鬆入主當老闆
+</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3559__zoneid=19__source=search__cb=1375ec650e__maxdest=http://goods.ruten.com.tw/item/show?11080912103805' target='_blank'>街頭潮流感 素圓領棉七分</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3560__zoneid=20__source=search__cb=f53912ad8f__maxdest=http://goods.ruten.com.tw/item/show?11080125921684' target='_blank'>溫馨送禮：香嫩手工烤布丁</a><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3561__zoneid=21__source=search__cb=3d92377b26__maxdest=http://goods.ruten.com.tw/item/show?11080415989984' target='_blank'>暖呼呼！遊子思念的好味道</a></div>
+      </div></li>          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080309337893" title="前往全新未拆封 Apple iPod Nano 8G 黑色--大出清--老賈把nano搞成瘦長型，跟白牌有什麼兩樣？頁面"><img src="http://a.rimg.com.tw/s1/0/1f/25/11080309337893_306_s.jpg"" alt="全新未拆封 Apple iPod Nano 8G 黑色--大出清--老賈把nano搞成瘦長型，跟白牌有什麼兩樣？"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080309337893" title="前往商品說明頁面">全新未拆封 Apple iPod Nano 8G 黑色--大出清--老賈把nano搞成瘦長型，跟白牌有什麼兩樣？</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">5,000</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=charliebaybay" title="前往賣家的拍賣首頁">charliebaybay</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?charliebaybay" title="觀看評價">14</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','charliebaybay',1,'11080309337893'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080309337893#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">1</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">5</span>天<span class="hr">17</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080309337893#detail" title="">15</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">22</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080309337893);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080909309371" title="前往☆風之痕的店☆全新第二代 iPod Touch 8GB(MA623TA/B全新未拆)頁面"><img src="http://b.rimg.com.tw/s1/2/f5/bb/11080909309371_182_s.jpg"" alt="☆風之痕的店☆全新第二代 iPod Touch 8GB(MA623TA/B全新未拆)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080909309371" title="前往商品說明頁面">☆風之痕的店☆全新第二代 iPod Touch 8GB(MA623TA/B全新未拆)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">7,300</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=cobra353" title="前往賣家的拍賣首頁">cobra353</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?cobra353" title="觀看評價">725</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','cobra353',1,'11080909309371'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080909309371#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">1</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台南市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">12</span>天<span class="hr">2</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080909309371#detail" title="">3</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">6</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080909309371);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080605224291" title="前往☆Camel.Dog☆香港設計品牌 Q-Max iPod Shuffle保護套/第一代 白色系列~特惠價↘$319免運費頁面"><img src="http://c.rimg.com.tw/s1/2/fd/63/11080605224291_992_s.jpg"" alt="☆Camel.Dog☆香港設計品牌 Q-Max iPod Shuffle保護套/第一代 白色系列~特惠價↘$319免運費"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080605224291" title="前往商品說明頁面">☆Camel.Dog☆香港設計品牌 Q-Max iPod Shuffle保護套/第一代 白色系列~特惠價↘$319免運費</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">319</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=camel_dog" title="前往賣家的拍賣首頁">camel_dog</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?camel_dog" title="觀看評價">167</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','camel_dog',1,'11080605224291'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080605224291#detail">2</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">8</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">7</span>天<span class="hr">6</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080605224291#detail" title="">6</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">4</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080605224291);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080810865852" title="前往【浮若生夢SHOP】iPod/MP3專用USB快速充電器 (輸出電壓:5V/1000mAh)頁面"><img src="http://d.rimg.com.tw/s2/4/d4/bc/11080810865852_761_s.jpg"" alt="【浮若生夢SHOP】iPod/MP3專用USB快速充電器 (輸出電壓:5V/1000mAh)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080810865852" title="前往商品說明頁面">【浮若生夢SHOP】iPod/MP3專用USB快速充電器 (輸出電壓:5V/1000mAh)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">90</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">40</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=frozenmod" title="前往賣家的拍賣首頁">frozenmod</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?frozenmod" title="觀看評價">163</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','frozenmod',1,'11080810865852'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080810865852#detail">2</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">28</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">10</span>天<span class="hr">18</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080810865852#detail" title="">1</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">1</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080810865852);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080903958511" title="前往【反Y拍大降價】APPLE iPod Classic 80GB-Sliver /black音樂播放達 30 小時頁面"><img src="http://e.rimg.com.tw/s1/1/4f/ef/11080903958511_45_s.jpg"" alt="【反Y拍大降價】APPLE iPod Classic 80GB-Sliver /black音樂播放達 30 小時"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080903958511" title="前往商品說明頁面">【反Y拍大降價】APPLE iPod Classic 80GB-Sliver /black音樂播放達 30 小時</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">6,390</span><span class="currency">元</span></li>
+              	                <li class="carriage">運費：<span class="value">120</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=m4a1ram" title="前往賣家的拍賣首頁">m4a1ram</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?m4a1ram" title="觀看評價">311</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','m4a1ram',1,'11080903958511'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080903958511#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">5</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">16</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080903958511#detail" title="">14</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">8</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080903958511);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080819958708" title="前往IPOD小喇叭音箱/MP3/NB筆電/手機/MD/CD隨身聽可用/送電源線和音源&amp;#32171;頁面"><img src="http://f.rimg.com.tw/s2/f/93/b4/11080819958708_121_s.jpg"" alt="IPOD小喇叭音箱/MP3/NB筆電/手機/MD/CD隨身聽可用/送電源線和音源&amp;#32171;"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080819958708" title="前往商品說明頁面">IPOD小喇叭音箱/MP3/NB筆電/手機/MD/CD隨身聽可用/送電源線和音源&#32171;</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">220</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">90</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=mp_liu" title="前往賣家的拍賣首頁">mp_liu</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?mp_liu" title="觀看評價">1652</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','mp_liu',1,'11080819958708'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080819958708#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">5</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">7</span>天<span class="hr">17</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080819958708#detail" title="">1</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">9</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080819958708);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080429358089" title="前往ipod touch 8G 台北頁面"><img src="http://a.rimg.com.tw/s1/7/7c/09/11080429358089_812_s.jpg"" alt="ipod touch 8G 台北"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080429358089" title="前往商品說明頁面">ipod touch 8G 台北</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">7,500</span><span class="currency">元</span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=www5201" title="前往賣家的拍賣首頁">www5201</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?www5201" title="觀看評價">25</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','www5201',1,'11080429358089'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080429358089#detail">0</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">物品中描述</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">11</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080429358089#detail" title="">61</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">11</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080429358089);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080811002092" title="前往@日本超人氣@ 隨車 iPOD/ MP3 小喇叭置物盒 (Dahon,Birdy,KHS,LGS,Giant可用)頁面"><img src="http://b.rimg.com.tw/s2/6/e8/ec/11080811002092_839_s.jpg"" alt="@日本超人氣@ 隨車 iPOD/ MP3 小喇叭置物盒 (Dahon,Birdy,KHS,LGS,Giant可用)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080811002092" title="前往商品說明頁面">@日本超人氣@ 隨車 iPOD/ MP3 小喇叭置物盒 (Dahon,Birdy,KHS,LGS,Giant可用)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">1,280</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">70</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=mom72803" title="前往賣家的拍賣首頁">mom72803</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?mom72803" title="觀看評價">191</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','mom72803',1,'11080811002092'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080811002092#detail">1</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">7</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北,基隆,桃園</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">12</span>天<span class="hr">4</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080811002092#detail" title="">1</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">8</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080811002092);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080701660112" title="前往震撼限時促銷傑克商行 飛利浦iPod音響DCM230/12 mini nano with display 5th Gene頁面"><img src="http://c.rimg.com.tw/s2/2/7b/d0/11080701660112_288_s.jpg"" alt="震撼限時促銷傑克商行 飛利浦iPod音響DCM230/12 mini nano with display 5th Gene"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080701660112" title="前往商品說明頁面">震撼限時促銷傑克商行 飛利浦iPod音響DCM230/12 mini nano with display 5th Gene</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">5,200</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=jack_a_ha" title="前往賣家的拍賣首頁">jack_a_ha</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?jack_a_ha" title="觀看評價">814</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','jack_a_ha',1,'11080701660112'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080701660112#detail">4</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">8</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">1</span>天<span class="hr">1</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080701660112#detail" title="">5</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">9</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080701660112);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080403118636" title="前往＊YOOWOO＊現貨【 韓國 lamb  iPod Classic  Milkcow 乳牛保護貼 】不留膠痕 / 隨時換裝頁面"><img src="http://d.rimg.com.tw/s2/7/1a/2c/11080403118636_642_s.jpg"" alt="＊YOOWOO＊現貨【 韓國 lamb  iPod Classic  Milkcow 乳牛保護貼 】不留膠痕 / 隨時換裝"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080403118636" title="前往商品說明頁面">＊YOOWOO＊現貨【 韓國 lamb  iPod Classic  Milkcow 乳牛保護貼 】不留膠痕 / 隨時換裝</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">399</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">30</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=princess0936" title="前往賣家的拍賣首頁">princess0936</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?princess0936" title="觀看評價">113</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','princess0936',1,'11080403118636'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080403118636#detail">1</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">1</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">28</span>天<span class="hr">4</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080403118636#detail" title="">1</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">7</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080403118636);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080729877730" title="前往台灣MOSHI展示館 iPouch mobile iPod touch 可用 特殊布料製成 不傷您心愛的主機 黑色頁面"><img src="http://e.rimg.com.tw/s2/1/0c/e2/11080729877730_830_s.jpg"" alt="台灣MOSHI展示館 iPouch mobile iPod touch 可用 特殊布料製成 不傷您心愛的主機 黑色"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080729877730" title="前往商品說明頁面">台灣MOSHI展示館 iPouch mobile iPod touch 可用 特殊布料製成 不傷您心愛的主機 黑色</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">490</span><span class="currency">元</span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=lovemoshitw" title="前往賣家的拍賣首頁">lovemoshitw</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?lovemoshitw" title="觀看評價">9</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','lovemoshitw',1,'11080729877730'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080729877730#detail">2</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">997</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">59</span>天<span class="hr">16</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080729877730#detail" title="">2</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">3</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080729877730);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080913648236" title="前往[豆豆館]~~全新未拆 Apple iPod Touch 8GB (公司貨 / 開發票)~~頁面"><img src="http://f.rimg.com.tw/s2/5/2a/6c/11080913648236_225_s.jpg"" alt="[豆豆館]~~全新未拆 Apple iPod Touch 8GB (公司貨 / 開發票)~~"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080913648236" title="前往商品說明頁面">[豆豆館]~~全新未拆 Apple iPod Touch 8GB (公司貨 / 開發票)~~</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">6,800</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=life982001" title="前往賣家的拍賣首頁">life982001</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?life982001" title="觀看評價">152</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','life982001',1,'11080913648236'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080913648236#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">5</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="hr">2</span>小時2分</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080913648236#detail" title="">5</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">6</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080913648236);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080817643538" title="前往【工廠小舖】↘殺3.0吋iPod Touch  觸控式超級MP5 //RMVB免轉檔/內建遊戲4G(2G/1199/4G1449/8G1799)頁面"><img src="http://a.rimg.com.tw/s2/c/40/12/11080817643538_138_s.jpg"" alt="【工廠小舖】↘殺3.0吋iPod Touch  觸控式超級MP5 //RMVB免轉檔/內建遊戲4G(2G/1199/4G1449/8G1799)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080817643538" title="前往商品說明頁面">【工廠小舖】↘殺3.0吋iPod Touch  觸控式超級MP5 //RMVB免轉檔/內建遊戲4G(2G/1199/4G1449/8G1799)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">1,449</span><span class="currency">元</span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=factory_shop_net" title="前往賣家的拍賣首頁">factory_shop_net</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?factory_shop_net" title="觀看評價">193</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','factory_shop_net',1,'11080817643538'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080817643538#detail">2</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">997</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="hr">19</span>小時32分</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080817643538#detail" title="">8</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">9</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080817643538);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080812412111" title="前往【東珈家電】PHILIPS 飛利浦 iPod多媒體收音機喇叭 AJ300D頁面"><img src="http://b.rimg.com.tw/s1/c/6c/cf/11080812412111_417_s.jpg"" alt="【東珈家電】PHILIPS 飛利浦 iPod多媒體收音機喇叭 AJ300D"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080812412111" title="前往商品說明頁面">【東珈家電】PHILIPS 飛利浦 iPod多媒體收音機喇叭 AJ300D</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">2,800</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">100</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=wa872559" title="前往賣家的拍賣首頁">wa872559</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?wa872559" title="觀看評價">966</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','wa872559',1,'11080812412111'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080812412111#detail">1</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">19</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">2</span>天<span class="hr">19</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080812412111#detail" title="">2</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">4</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080812412111);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11070320774158" title="前往【質佳信】全新~正廠iPod帶標~絨線保護襪套~殺到底價充評價~一盒六個頁面"><img src="http://c.rimg.com.tw/s2/e/a0/0e/11070320774158_174_s.jpg"" alt="【質佳信】全新~正廠iPod帶標~絨線保護襪套~殺到底價充評價~一盒六個"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11070320774158" title="前往商品說明頁面">【質佳信】全新~正廠iPod帶標~絨線保護襪套~殺到底價充評價~一盒六個</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">100</span><span class="currency">元</span></li>
+              	                <li class="carriage">運費：<span class="value">90</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=bebe_lee" title="前往賣家的拍賣首頁">bebe_lee</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?bebe_lee" title="觀看評價">319</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','bebe_lee',1,'11070320774158'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11070320774158#detail">2</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">7</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">33</span>天<span class="hr">17</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11070320774158#detail" title="">8</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">2</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11070320774158);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080808453650" title="前往全新未拆封原廠代理商貨~iPod nano，8GB 第三代(黑色)頁面"><img src="http://d.rimg.com.tw/s2/0/06/12/11080808453650_563_s.jpg"" alt="全新未拆封原廠代理商貨~iPod nano，8GB 第三代(黑色)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080808453650" title="前往商品說明頁面">全新未拆封原廠代理商貨~iPod nano，8GB 第三代(黑色)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">5,400</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">70</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=onsale888" title="前往賣家的拍賣首頁">onsale888</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?onsale888" title="觀看評價">44</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','onsale888',1,'11080808453650'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080808453650#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">1</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">8</span>天<span class="hr">18</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080808453650#detail" title="">30</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">7</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080808453650);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080423930956" title="前往代購代買全新Apple iphone mini ipod itouch 16g 8g最低價也可代購A&amp;F or AE頁面"><img src="http://e.rimg.com.tw/s2/4/ac/4c/11080423930956_977_s.jpg"" alt="代購代買全新Apple iphone mini ipod itouch 16g 8g最低價也可代購A&amp;F or AE"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080423930956" title="前往商品說明頁面">代購代買全新Apple iphone mini ipod itouch 16g 8g最低價也可代購A&amp;F or AE</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">10,000</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=howard923" title="前往賣家的拍賣首頁">howard923</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?howard923" title="觀看評價">5</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','howard923',1,'11080423930956'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080423930956#detail">0</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">台北市</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">22</span>天<span class="hr">5</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080423930956#detail" title="">9</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">8</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080423930956);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080917287555" title="前往【ShopUSA 美國專櫃】免運！全新 蘋果電腦 Apple iPod Dock for 2nd Generation nano MA594G/A頁面"><img src="http://f.rimg.com.tw/s1/c/b2/83/11080917287555_391_s.jpg"" alt="【ShopUSA 美國專櫃】免運！全新 蘋果電腦 Apple iPod Dock for 2nd Generation nano MA594G/A"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080917287555" title="前往商品說明頁面">【ShopUSA 美國專櫃】免運！全新 蘋果電腦 Apple iPod Dock for 2nd Generation nano MA594G/A</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">908</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=shopusa" title="前往賣家的拍賣首頁">shopusa</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?shopusa" title="觀看評價">704</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','shopusa',1,'11080917287555'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080917287555#detail">0</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">1</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">美國</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">17</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080917287555#detail" title="">0</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">1</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080917287555);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080623285210" title="前往iPod nano 4G  ＊全新，保証未拆＊頁面"><img src="http://a.rimg.com.tw/s2/6/93/da/11080623285210_583_s.jpg"" alt="iPod nano 4G  ＊全新，保証未拆＊"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080623285210" title="前往商品說明頁面">iPod nano 4G  ＊全新，保証未拆＊</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 競標 -->
+                <li class="bid-now">目前出價：<span class="value">4,199</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+                <li class="buy-now important">直購價：<span class="value">無</span></li>
+              	                <li class="carriage">運費：<span class="value">80</span><span class="currency">元</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=cuteyting" title="前往賣家的拍賣首頁">cuteyting</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?cuteyting" title="觀看評價">22</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','cuteyting',1,'11080623285210'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 競標 -->
+              	<li class="bidder">競標數：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080623285210#detail">0</a></span>次</li>
+                                <li class="locate">物品所在地：<span class="country">屏東縣</span></li>
+                <li class="statu">物品狀況：<span class="type">全新</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">2</span>天<span class="hr">14</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080623285210#detail" title="">12</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">10</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080623285210);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="product-thumb"><span class="image"><span></span><a href="http://goods.ruten.com.tw/item/show?11080219338859" title="前往【日安】加大版~數位相機防水袋/手機防水套(PDA/防水/皮套/ipod/頸攜帶/外務最愛/快遞/八仙/月眉/馬拉灣/布魯樂谷/墾丁 必備)頁面"><img src="http://b.rimg.com.tw/s1/2/d8/6b/11080219338859_342_s.jpg"" alt="【日安】加大版~數位相機防水袋/手機防水套(PDA/防水/皮套/ipod/頸攜帶/外務最愛/快遞/八仙/月眉/馬拉灣/布魯樂谷/墾丁 必備)"/></a></span></div>
+            <h3 class="title "><a href="http://goods.ruten.com.tw/item/show?11080219338859" title="前往商品說明頁面">【日安】加大版~數位相機防水袋/手機防水套(PDA/防水/皮套/ipod/頸攜帶/外務最愛/快遞/八仙/月眉/馬拉灣/布魯樂谷/墾丁 必備)</a></h3>
+            <div class="info">
+              <ul class="default-info">
+              	 <!-- 直購 -->
+              	<li class="buy-now important">直購價：<span class="value">130</span><span class="currency">元</span><span class="buy-now-btn"></span></li>
+              	                <li class="carriage">運費：<span class="value">無</span></li>
+                <li class="seller">賣家：<span class="id"><a href="http://class.ruten.com.tw/user/index00.php?s=sare-ok" title="前往賣家的拍賣首頁">sare-ok</a></span><span class="estimate">(<a href="http://mybid.ruten.com.tw/credit/point?sare-ok" title="觀看評價">1040</a>)</span><span class="msg"><a onclick="javascript:check_secret_open(Array('http://search.ruten.com.tw','sare-ok',1,'11080219338859'))" title="我要對賣家說悄悄話">留悄悄話</a></span></li>
+              </ul>
+              <ul class="item-info">
+              	 <!-- 直購 -->
+                <li class="sold-out">已售出：<span class="total"><a href="http://goods.ruten.com.tw/item/history?11080219338859#detail">5</a></span>筆</li>
+                <li class="stocks">尚餘件數：<span class="total">43</span>件</li>
+              	                <li class="locate">物品所在地：<span class="country">台北縣</span></li>
+                <li class="statu">物品狀況：<span class="type">物品中描述</span></li>
+              </ul>
+              <ul class="bid-info">
+                <li class="count-down">剩餘時間：<span class="day">3</span>天<span class="hr">2</span>小時</li>
+                <li class="qa-total">問答數：<span class="total"><a href="http://goods.ruten.com.tw/item/qa?11080219338859#detail" title="">8</a></span></li>
+                <li class="tracer">追蹤數：<span class="total">9</span><span class="trace"><a id="fav" href="javascript:joinFavorite_new(11080219338859);" title="我要將該商品加入追蹤清單">加入追蹤</a></span></li>
+              </ul>
+            </div>
+          </li>
+</ul>
+      </div>
+
+
+      <!-- 10. 統一使用新版的頁碼 -->
+      <div class="pagination">
+        <p class="page-number">
+        <span class="pre no-more"><a  title="上一頁">&lt;上一頁</a></span>        <span class="numbers"><a class="located" title="前往第1頁">1</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=2" title="前往第2頁">2</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=3" title="前往第3頁">3</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=4" title="前往第4頁">4</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=5" title="前往第5頁">5</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=6" title="前往第6頁">6</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=7" title="前往第7頁">7</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=8" title="前往第8頁">8</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=9" title="前往第9頁">9</a>.<a href="?searchfrom=headbar&k=iPod&t=0&p=10" title="前往第10頁">10</a>.</span>
+        <span class="next-ten"><a href="?searchfrom=headbar&k=iPod&t=0&p=11" title="下10頁">下10頁&gt;</a></span><span class="next"><a href="?searchfrom=headbar&k=iPod&t=0&p=2" title="下一頁">下一頁&gt;</a></span></p>
+        <p class="to-top"><a href="#">&#x25B2;TOP</a></p>
+        <ul class="view-type">
+      		<li class="sub2">每頁顯示筆數：<span class="type1 "><a href="?searchfrom=headbar&k=iPod&t=0&o=43">30</a></span><span class="type2 located"><a >50</a></span><span class="type3 "><a href="?searchfrom=headbar&k=iPod&t=0&o=107">70</a></span></li>
+    		</ul>
+        <form name="jump_form">
+          <p class="info">共<span class="product-total">8215</span>項商品：</p>
+          <label>請輸入頁碼：</label><p class="page-jump"><span class="to-page"><input type="text" id="pageNo" name="p" value="1" onKeyDown="if(event.keyCode == 13) return jumptopage(this.value);" onMouseDown="jump_form.p.value='';" /></span>/ <span class="page-total">165</span>頁<span class="btn submit"><input type="button" value="確定" onclick="return jumptopage(jump_form.p.value);" /></span></p>
+        </form>
+      </div>
+    </div>
+    <div class="board4 co-event">
+      <h3 class="title text"><span>消費情報</span></h3>
+      <ul class="text">
+        <li><h4><a href="http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=2836__zoneid=23__source=search__cb=8ac047a662__maxdest=http://www.realma.com/events/2008071701/index.htm"  target="_blank">萬海愛的築夢計畫</a></h4><p><a href="http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=2836__zoneid=23__source=search__cb=8ac047a662__maxdest=http://www.realma.com/events/2008071701/index.htm"  target="_blank">10/7邀你與英皇家愛樂齊助永安兒</a></p></li>        <li><h4><a href="http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3400__zoneid=24__source=search__cb=d6318a43b6__maxdest=http://boss.store.pchome.com.tw/ad.htm?ad=ru0809"  target="_blank">超便宜網路金店面</a></h4><p><a href="http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3400__zoneid=24__source=search__cb=d6318a43b6__maxdest=http://boss.store.pchome.com.tw/ad.htm?ad=ru0809"  target="_blank">超省！商店街開店免月租、免上架費</a></p></li>        <li><h4><a href="http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3611__zoneid=25__source=search__cb=3e4f5148bf__maxdest=http://shopping.pchome.com.tw/?m=index&f=activity&ac=AC00017612"  target="_blank">3C購物節★送現金</a></h4><p><a href="http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3611__zoneid=25__source=search__cb=3e4f5148bf__maxdest=http://shopping.pchome.com.tw/?m=index&f=activity&ac=AC00017612"  target="_blank">NB送現金積點★電視送VIP安裝</a></p></li>      </ul>
+      <h3 class="title image"><span>廣告</span></h3>
+      <ul class="image">
+        <li class="jscorn-2"><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3398__zoneid=26__source=search__cb=7859a985a3__maxdest=http://boss.store.pchome.com.tw/ad.htm?ad=ru0809' target='_blank'><img src='http://e.rimg.com.tw/ahd/140x85_4.gif' width='140' height='85' alt='' title='' border='0' /></a></li>        <li class="jscorn-2"><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3408__zoneid=27__source=search__cb=f1d120a811__maxdest=http://shopping.pchome.com.tw/?m=index&f=activity&ac=AC00017613' target='_blank'><img src='http://f.rimg.com.tw/ahd/140x85_1.jpg' width='140' height='85' alt='' title='' border='0' /></a></li>        <li class="jscorn-2"><a href='http://ahd.ruten.com.tw/delivery/ck.php?oaparams=2__bannerid=3590__zoneid=28__source=search__cb=bccd36b418__maxdest=http://www.momoshop.com.tw/activity/edm.jsp?pn=080917170640&ctype=B&cid=RU0922&oid=307' target='_blank'><img src='http://d.rimg.com.tw/ahd/ruten140300.gif' width='140' height='300' alt='' title='' border='0' /></a></li>      </ul>
+    </div>
+        <!-- 12. 頁尾資訊區塊 -->
+    <div class="site-info">
+      <ul>
+        <li class="about"><a href="http://www.ruten.com.tw/about/about_us.htm" title="關於露天拍賣">關於露天</a></li>
+        <li class="cm"><a href="http://www.ruten.com.tw/system/" title="露天客服中心">客服中心</a></li>
+        <li class="qa"><a href="http://www.ruten.com.tw/system/server_center.htm?000500010001" title="網站常見問題">常見問題</a></li>
+        <li class="security"><a href="http://www.ruten.com.tw/security/index.html" title="關於交易安全說明">交易安全</a></li>
+        <li class="member"><a href="http://www.ruten.com.tw/system/server_center.htm?00060001" title="會員合約內容">會員合約</a></li>
+        <li class="privacy"><a href="http://www.ruten.com.tw/system/server_center.htm?00060002" title="隱私權聲明項目">隱私權聲明</a></li>
+        <li class="export"><a href="http://twexport.ebay.com/" title="eBay跨國交易服務" target="_blank">eBay跨國交易</a></li>
+      </ul>
+      <p>露天市集國際資訊股份有限公司版權所有，轉載必究‧Copyrightc　PChome eBay Co., Ltd.</p>
+    </div>
+    
+<!-- ts code start -->
+<script type="text/javascript">
+  document.write(unescape("%3Cscript src='http://ts.ruten.com.tw/ts.js?10' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+_ts_js_fn.init();
+_ts_js_fn.run();
+</script>
+<!-- ts code end -->  </div>
+  </div>
+
+<script type="text/javascript" src="/js/jquery-1.2.3.pack.js"></script>
+<script type="text/javascript" src="/js/index.events.js"></script>
+<script type="text/javascript" src="/js/style_fix/drop-down-div.js"></script>
+<script type="text/javascript" src="/js/style_fix/page-header.js"></script>
+<script type="text/javascript" src="/js/search.js" ></script>
+<script type="text/javascript" src="/js/secret_button_ar.js" ></script>
+<script type="text/javascript" src="/js/tw-sack.js"></script>
+<script type="text/javascript" src="/js/my_ajax.js"></script>
+<script type="text/javascript">
+var mybid_host = 'http://mybid.ruten.com.tw';
+var class_host = 'http://class.ruten.com.tw';
+function clickurl(st,from,tos,tov,tourl)
+{
+	if(tourl != '')
+	{
+		$.post(
+			's000_addmem.php',
+			{
+				st:st,
+				from:from,
+				tos:tos,
+				tov:tov
+			},
+			function(){
+				location.href = tourl;
+			}
+		);
+	}
+		return false;
+}
+//key頁碼送出
+function jumptopage(p)
+{
+		var totalp = "165";
+		var numcheck = /^\d*$/;
+		if((p != '' && !numcheck.test(p)) || p == '')
+		{
+			alert("僅限輸入半形數字！");
+			return false;
+		}
+		if(p > parseInt(totalp))
+		{
+			alert("您所輸入的頁數不存在！");
+			return false;
+		}
+		location.href="?searchfrom=headbar&k=iPod&t=0&p=" + p;
+		return false;
+}
+
+    $(function() {
+      pageHeaderMenu();
+
+    		$.post(
+  			's000_addmem.php',
+  			{
+  				pv:1,
+  				sort:11,
+  				views:1,
+  				classic:'0'
+  			}
+  		);
+  
+    });
+</script>
+
+  </body>
+</html>
+

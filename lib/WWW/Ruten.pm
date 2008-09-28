@@ -2,8 +2,6 @@ package WWW::Ruten;
 
 use warnings;
 use strict;
-use Carp;
-use URI;
 use WWW::Mechanize;
 use Encode;
 
@@ -28,7 +26,6 @@ sub search {
     return $self;
 }
 
-use XXX;
 sub each {
     my ($self, $cb) = @_;
     $self->_do_search;
@@ -82,18 +79,24 @@ __END__
 
 =head1 NAME
 
-WWW::Ruten - [One line description of module's purpose here]
-
+WWW::Ruten - Scripting www.ruten.com.tw
 
 =head1 VERSION
 
-This document describes WWW::Ruten version 0.0.1
-
+This document describes WWW::Ruten version 0.01
 
 =head1 SYNOPSIS
 
     use WWW::Ruten;
 
+    my $ruten = WWW::Ruten->new;
+    $ruten->search("iPod");
+    $ruten->each(sub {
+        my $result = shift;
+
+        print $result->{title};
+        print $result->{url};
+    })
 
 =head1 DESCRIPTION
 
@@ -105,36 +108,29 @@ This document describes WWW::Ruten version 0.0.1
 
 =item new()
 
+Creates a new ruten object and returns it.
+
+=item search( $term )
+
+Search something. $term is a string, required.
+
+=item each( $coderef )
+
+After calling C<search>, you then call this method, give it a
+callback. The callback will be called for each item in the search
+result. The first argument passed to the callback is a hashref
+containing the information. At this point, it has "url" and "title"
+keys. This might be changed in the future.
+
+Notices that, the content inside L<www.ruten.com.tw> response is
+encoded as big5 text. This module internally decoded it into Perl
+strings and returns it to you.
+
 =back
-
-=head1 DIAGNOSTICS
-
-=over
-
-=item C<< Error message here, perhaps with %s placeholders >>
-
-[Description of error here]
-
-=item C<< Another error message here >>
-
-[Description of error here]
-
-[Et cetera, et cetera]
-
-=back
-
-
-=head1 CONFIGURATION AND ENVIRONMENT
-
-WWW::Ruten requires no configuration files or environment variables.
 
 =head1 DEPENDENCIES
 
-None.
-
-=head1 INCOMPATIBILITIES
-
-None reported.
+L<Encode>, L<HTML::TreeBuilder>, L<HTML::Selector::XPath>, L<WWW::Mechanize>
 
 =head1 BUGS AND LIMITATIONS
 
@@ -149,14 +145,29 @@ L<http://rt.cpan.org>.
 
 Kang-min Liu  C<< <gugod@gugod.org> >>
 
-
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2008, Kang-min Liu C<< <gugod@gugod.org> >>. All rights reserved.
+The MIT License
 
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
+Copyright (c) 2008, Kang-min Liu.
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 =head1 DISCLAIMER OF WARRANTY
 

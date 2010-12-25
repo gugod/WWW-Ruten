@@ -4,16 +4,17 @@ use warnings;
 
 use Test::More tests => 1;
 use WWW::Ruten;
+use Encode qw(encode_utf8);
 
-my $ruten = new WWW::Ruten;
+my $ruten = WWW::Ruten->new;
 
 $ruten->search("iPod");
 $ruten->each(
     sub {
         my ($self) = @_;
 
-        diag $self->{title};
-        diag $self->{url};
+        diag encode_utf8 $self->{title};
+        diag encode_utf8 $self->{url};
     }
 );
 

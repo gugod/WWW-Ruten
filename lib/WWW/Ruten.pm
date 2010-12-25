@@ -2,9 +2,8 @@ package WWW::Ruten;
 use 5.8.0;
 use warnings;
 use strict;
-use WWW::Mechanize;
+use WWW::Mechanize 1.66;
 use Encode;
-
 use HTML::TreeBuilder::XPath;
 use HTML::Selector::XPath;
 
@@ -28,7 +27,7 @@ sub search {
 
 sub each {
     my ($self, $cb) = @_;
-    $self->_do_search;
+    $self->_do_search();
 
     foreach my $result (@{ $self->{search_results} }) {
         $cb->($result);
@@ -38,9 +37,7 @@ sub each {
 
 sub _do_search {
     my ($self) = @_;
-    die unless(
-        defined $self->{search_params}{term}
-    );
+    die unless defined $self->{search_params}{term};
 
     $self->{mech} ||= WWW::Mechanize->new;
 
@@ -53,7 +50,8 @@ sub _do_search {
         }
     );
 
-    my $content = Encode::decode("big5", $mech->content);
+    my $content = $mech->content;
+
     my @results = ();
     my $html = HTML::TreeBuilder::XPath->new;
     $html->parse($content);
@@ -73,8 +71,8 @@ sub _do_search {
     return $self;
 }
 
+1;
 
-1; # Magic true value required at end of module
 __END__
 
 =head1 NAME

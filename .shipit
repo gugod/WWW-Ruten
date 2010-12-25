@@ -1,9 +1,4 @@
-steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN, Twitter
+steps = FindVersion, ChangeAllVersions, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadCPAN
 
-svk.tagpattern = //mirror/handlino-pub/perl5/WWW-Ruten/tags/%v
-
+git.tagpattern = release-%v
 CheckChangeLog.files = Changes
-twitter.config = /Users/gugod/.twitterrc
-twitter.distname = WWW-Ruten
-twitter.message = shipped %d %v - soon at %u
-

@@ -1,13 +1,13 @@
 package WWW::Ruten;
-use 5.8.0;
-use warnings;
+# ABSTRACT: Scripting www.ruten.com.tw
+
+use 5.008;
 use strict;
+use warnings;
 use WWW::Mechanize 1.66;
 use Encode;
 use HTML::TreeBuilder::XPath;
 use HTML::Selector::XPath;
-
-our $VERSION = '0.02';
 
 sub new {
     my ($class) = @_;
@@ -72,16 +72,6 @@ sub _do_search {
 }
 
 1;
-
-__END__
-
-=head1 NAME
-
-WWW::Ruten - Scripting www.ruten.com.tw
-
-=head1 VERSION
-
-This document describes WWW::Ruten version 0.01
 
 =head1 SYNOPSIS
 

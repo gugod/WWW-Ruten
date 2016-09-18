@@ -4,10 +4,13 @@ package WWW::Ruten;
 use 5.008;
 use strict;
 use warnings;
-use WWW::Mechanize 1.66;
+use WWW::Mechanize::PhantomJS;
 use Encode;
 use HTML::TreeBuilder::XPath;
 use HTML::Selector::XPath;
+use URI::Escape qw(uri_escape);
+use Mojo::DOM;
+use HTTP::Cookies;
 
 sub new {
     my ($class) = @_;
@@ -39,10 +42,15 @@ sub _do_search {
     my ($self) = @_;
     die unless defined $self->{search_params}{term};
 
-    $self->{mech} ||= WWW::Mechanize->new;
+    my $mech = $self->{mech} ||= WWW::Mechanize::PhantomJS->new(
+        autodie => 1,
+        cookie_file => "/tmp/ruten-cookie.txt"
+    );
 
-    my $mech = $self->{mech};
     $mech->get("http://www.ruten.com.tw");
+
+    print STDERR "00: " . $mech->status() . "\n";
+
     $mech->submit_form(
         form_name => "srch",
         fields => {
@@ -50,23 +58,24 @@ sub _do_search {
         }
     );
 
+    sleep 1;
+
+    # $mech->get("http://search.ruten.com.tw/search/s000.php?searchfrom=indexbar&k=". uri_escape($self->{search_params}{term}) ."&t=0");
+
+    print STDERR "01: " . $mech->uri."\n";
+    print STDERR "01: " . $mech->status() . "\n";
+
     my $content = $mech->content;
 
-    my @results = ();
-    my $html = HTML::TreeBuilder::XPath->new;
-    $html->parse($content);
+    open FH, ">", "/tmp/out.html";
+    print FH $content;
+    close FH;
 
-    my $selector = HTML::Selector::XPath->new("ul.items h3.title a");
+    my @entries = $mech->xpath("//h3");
+    print STDERR Data::Dumper::Dumper(\@entries);
 
-    for my $node ($html->findnodes($selector->to_xpath)) {
-        push @results, {
-            url => $node->attr("href"),
-            title => join("", $node->content_list)
-        }
-    }
-
-    $self->{search_results} ||=[];
-    push @{  $self->{search_results} }, @results;
+    # $self->{search_results} = \@results;
+    # print STDERR Data::Dumper::Dumper(\@results);
 
     return $self;
 }

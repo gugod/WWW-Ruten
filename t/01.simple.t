@@ -8,7 +8,7 @@ use Encode qw(encode_utf8);
 
 my $ruten = WWW::Ruten->new;
 
-$ruten->search("iPod");
+$ruten->search("iphone");
 $ruten->each(
     sub {
         my ($self) = @_;

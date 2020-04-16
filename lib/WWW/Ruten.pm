@@ -5,12 +5,7 @@ use 5.008;
 use strict;
 use warnings;
 use WWW::Mechanize::PhantomJS;
-use Encode;
-use HTML::TreeBuilder::XPath;
-use HTML::Selector::XPath;
-use URI::Escape qw(uri_escape);
 use Mojo::DOM;
-use HTTP::Cookies;
 
 sub new {
     my ($class) = @_;
@@ -47,9 +42,7 @@ sub _do_search {
         cookie_file => "/tmp/ruten-cookie.txt"
     );
 
-    $mech->get("http://www.ruten.com.tw");
-
-    print STDERR "00: " . $mech->status() . "\n";
+    $mech->get("https://www.ruten.com.tw");
 
     $mech->submit_form(
         form_name => "srch",
@@ -58,24 +51,20 @@ sub _do_search {
         }
     );
 
-    sleep 1;
-
-    # $mech->get("http://search.ruten.com.tw/search/s000.php?searchfrom=indexbar&k=". uri_escape($self->{search_params}{term}) ."&t=0");
-
-    print STDERR "01: " . $mech->uri."\n";
-    print STDERR "01: " . $mech->status() . "\n";
-
     my $content = $mech->content;
 
-    open FH, ">", "/tmp/out.html";
-    print FH $content;
-    close FH;
+    my @products;
+    my @elements = $mech->selector('div.prod_info > h5.prod_name > a');
 
-    my @entries = $mech->xpath("//h3");
-    print STDERR Data::Dumper::Dumper(\@entries);
+    my @results = map {
+        my $e = $_;
+        +{
+            title => $e->get_property('title'),
+            url   => $e->get_property('href'),
+        }
+    } @elements;
 
-    # $self->{search_results} = \@results;
-    # print STDERR Data::Dumper::Dumper(\@results);
+    $self->{search_results} = \@results;
 
     return $self;
 }
